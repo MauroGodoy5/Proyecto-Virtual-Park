@@ -1,0 +1,126 @@
+.contenedor-cuadros {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: space-evenly;
+    gap: 20px; /* Espacio entre los cuadros */
+}
+
+.cuadro-reserva {
+    background-color: gray;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    width: 500px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.cuadro-reserva:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cuadro-reserva h2 {
+    margin-bottom: 10px;
+    font-size: 2.2em;
+}
+
+.cuadro-reserva p {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 1.1em;
+}
+.sin-cupos {
+    opacity: 0.5; /* Ajusta el valor según tus necesidades */
+}
+
+.cuadro-reserva button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cuadro-reserva button:hover {
+    background-color: #2980b9;
+}
+
+
+#como-reservar {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo negro semi-transparente */
+    color: #ffffff; /* Texto blanco */
+    padding: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#como-reservar h2 {
+    
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#como-reservar p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+#como-reservar ol {
+    margin-left: 30px;
+}
+
+#como-reservar ol li {
+    margin-bottom: 10px;
+}
+
+.mensaje-exito {
+    display: none;
+    background-color: rgb(22, 160, 17);
+    block-size: 50px;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para mostrar el div con la clase .mostrar */
+#mensaje.mostrar {
+    display: block;
+}
+
+.mensaje-error {
+    display: none;
+    background-color: rgb(243, 28, 28);
+    block-size: 50px;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para mostrar el div con la clase .mostrar */
+#mensajeerror.mostrar {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    /* Estilos para dispositivos móviles */
+    #como-reservar {
+        padding: 20px;
+    }
+    #como-reservar h2 {
+        font-size: 28px;
+    }
+    #como-reservar p {
+        font-size: 16px;
+    }
+}

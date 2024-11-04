@@ -1,0 +1,78 @@
+/* Reset de algunos estilos básicos para mayor consistencia entre navegadores */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.edicion-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.edicion-box {
+  background-color: #333;
+  color: #70C2BF;
+  border-radius: 10px;
+  border: 1px solid #f583ec;
+  margin: 10px 0;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.edicion-box img {
+  max-width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+.edicion-box h2 {
+  color: #70C2BF;
+  margin-bottom: 10px;
+}
+
+.edicion-box p {
+  color: #ffffff;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.edicion-box .ubicacion {
+  color: #70C2BF;
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+h2 {
+  color: #70C2BF;
+}
+
+p {
+  color: #ffffff;
+  font-size: larger;
+}
+
+.galeria {
+  text-align: center;
+}
+
+.img-galeria {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.img-galeria img {
+  width: 35%;
+  height: 35%;
+}

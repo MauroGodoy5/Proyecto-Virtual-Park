@@ -1,0 +1,189 @@
+/*Login*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Julius Sans One;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/fondovirtual.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    margin: 0;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 50px 0;
+}
+
+h2 {
+    margin: 0;
+    color: #74babc;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+}
+
+p.w3l-register-p {
+    color: #74babc;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.w3l-login-form {
+    background: rgb(41, 41, 41);
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 3em;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.group {
+    display: flex;
+    padding: 15px 5px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.group:hover {
+    box-shadow: 0px 0px 10px 2px #70C2BF;
+}
+
+.w3l-form-group {
+    margin: 20px 0;
+}
+
+.mensaje-error {
+    display: none;
+    background-color: rgb(255, 60, 0);
+    color: white;
+    padding: 10px;
+}
+
+/* Estilo para mostrar el div con la clase .mostrar */
+#mensaje.mostrar {
+    display: block;
+}
+
+.w3l-form-group label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #74babc;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    background: transparent;
+    color: #000;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+}
+
+button {
+    background: #340430;
+    color: #ffffff;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    padding: 12px 60px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 15px;
+}
+
+button:hover {
+    color: #70C2BF;
+  box-shadow: 0 4px 16px #340430;
+  transition: all 0.2s ease;
+}
+
+.forgot {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+a {
+    color: #74babc;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.forgot p {
+    color: #74babc;
+    text-align: center;
+    margin: 0px;
+    font-size: 20px;
+}
+
+a:hover{
+    color: #ffffff;
+}
+
+.register {
+    color: #74babc;
+    text-decoration: none;
+}
+
+/*Login*/
+
+
+/*--footer login--*/
+
+p.copyright-agileinfo {
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #fff;
+    font-weight: 300;
+}
+
+footer p a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer p a:hover {
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+footer {
+    padding: 4em 0;
+    text-align: center;
+}
+
+/*--//footer login--*/

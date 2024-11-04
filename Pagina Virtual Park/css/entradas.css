@@ -1,0 +1,55 @@
+.section {
+    text-align: center;
+}
+
+#urlInput {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+button {
+    color: #ffffff;
+	text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+	background-color: #70C2BF;
+	width: 40%;
+	border-radius: 15px 50px;
+	padding: 5%;
+    margin-top: 5%;
+    padding: 30px 50px;
+    font-size: large;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+button:hover{
+    box-shadow: 0px 0px 10px 2px #70C2BF;
+}
+
+#entradas {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo negro semi-transparente */
+    color: #ffffff; /* Texto blanco */
+    padding: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#entradas h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#entradas p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+#entradas ul {
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+#entradas ul li {
+    margin-bottom: 10px;
+    text-decoration: none;
+}

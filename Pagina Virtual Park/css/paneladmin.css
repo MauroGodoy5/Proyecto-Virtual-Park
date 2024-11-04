@@ -1,0 +1,289 @@
+
+ /*informacion moderador*/
+ .indicadores {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.indicadores h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.indicadores ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.indicadores li {
+  margin-bottom: 5px;
+}
+
+.indicadores li:before {
+  content: "•";
+  color: #666;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.indicadores li:nth-child(even) {
+  background-color: #e0e0e0;
+  padding: 5px;
+  border-radius: 3px;
+}
+ .containerI {
+  width: 60%; /* Aquí ajusta el ancho total de tu formulario */
+  margin: 0 20%;
+  margin: 20px auto;
+}
+.tituloI{
+  color: black;
+}
+.form-section {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.form-section h2 {
+  margin-bottom: 15px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+textarea {
+  width: calc(100% - 12px);
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.botones {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.botones:hover {
+  background-color: #0056b3;
+}
+.mensaje-exito {
+  display: none;
+  background-color: rgb(22, 160, 17);
+  block-size: 50px;
+  margin-left: auto;
+  margin-right: auto; 
+  text-align: center;
+  color: white;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+/* Estilo para mostrar el div con la clase .mostrar */
+#mensaje.mostrar {
+  display: block;
+}
+  /*informacion moderador*/
+  
+  .titulourl{
+    color: #f2f2f2;
+  }
+
+  /*Lista de usuarios*/
+
+  .table-wrapper {
+    width: 60%; /* Aquí ajusta el ancho total de tu formulario */
+    margin: 0 20%;
+    margin-top: 50px;}
+  caption{
+    color: white;
+    font-size: 50px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 50px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th:last-child,
+  td:last-child {
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr {
+    background-color: #6b6969;
+  }
+  
+  tr:hover {
+    background-color: #16f5f5;
+  }
+  
+  .eliminar {
+    padding: 8px 16px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+ /*Lista de usuarios*/
+
+/*reserva*/
+  .containerR {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 60%; /* Aquí ajusta el ancho total de tu formulario */
+    margin: 0 20%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea,
+  input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+
+  #reservasTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  #reservasTable th,
+  #reservasTable td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  #reservasTable th {
+    background-color: #f2f2f2;
+  }
+  
+  #reservasTable td button {
+    margin-right: 5px;
+  }
+  /*reserva*/
+
+
+
+  .containerR {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 60%;
+    margin: 0 20%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+input[type="date"],
+select,
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 10px; /* Añadido para separar los elementos */
+}
+
+.accordion-section {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.accordion-title {
+  background-color: #f1f1f1;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+}
+
+.accordion-section.active .accordion-content {
+  display: block;}
+
