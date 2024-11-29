@@ -14,38 +14,37 @@ El objetivo de estos proyectos es aplicar todos los conocimientos adquiridos en 
 
 ## Funcionalidades Implementadas
 Este proyecto incluye las siguientes funcionalidades:
--  Gestionar usuarios (CRUD)
-    ♦ Registrar Usuario
-    ♦ Modificar Usuario 
-    ♦ Eliminar Usuario
+- **Gestionar Usuarios (CRUD)**:
+  - Registrar Usuario
+  - Modificar Usuario
+  - Eliminar Usuario
 
--  Gestionar empresas (CRUD)
-    ♦ Registrar Empresa
-    ♦ Modificar Empresa
-    ♦ Eliminar Empresa 
+- **Gestionar Empresas (CRUD)**:
+  - Registrar Empresa
+  - Modificar Empresa
+  - Eliminar Empresa
 
--  Administrar Evento (CRUD)
-    ♦ Registrar Evento
-    ♦ Modificar Evento
-    ♦ Eliminar Evento
-  
--  Gestionar informes
-    ♦ Emitir Informe de servicios
-   
--  Gestionar entradas
-    ♦ Registrar entradas 
-    ♦ Modificar entradas
+- **Administrar Evento (CRUD)**:
+  - Registrar Evento
+  - Modificar Evento
+  - Eliminar Evento
 
-   
--  Gestionar Productos
-    ♦ Registrar Productos
-    ♦ Modificar Productos
-    ♦ Eliminar Producto
+- **Gestionar Informes**:
+  - Emitir Informe de Servicios
 
--  Gestionar Servicios
-    ♦ Registrar Servicio
-    ♦ Modificar Servicio
-    ♦ Eliminar Servicio
+- **Gestionar Entradas**:
+  - Registrar Entradas
+  - Modificar Entradas
+
+- **Gestionar Productos**:
+  - Registrar Productos
+  - Modificar Productos
+  - Eliminar Producto
+
+- **Gestionar Servicios**:
+  - Registrar Servicio
+  - Modificar Servicio
+  - Eliminar Servicio
 
 
 
