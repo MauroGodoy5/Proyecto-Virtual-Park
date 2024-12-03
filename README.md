@@ -65,6 +65,7 @@ Al trabajar en estos proyectos, pude aprender y mejorar en varias áreas:
 -  Generación de peticiones.
 -  Login de usuarios.
 -  Realizar un Panel de administracion.
+-  Validaciones.
   
 Este proyecto me permitió mejorar mis habilidades en backend, así como también en resolución de problemas.
 
